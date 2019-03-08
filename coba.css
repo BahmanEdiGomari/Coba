@@ -1,63 +1,55 @@
 .site-nav {
     width: 100%;
-    font-size: 20px;
+    font-size: 15px;
 }
-
 body {
-    background-color: lightskyblue;
+    background: lightgrey;
 }
 .container {
     display: block;
+    padding-left: 2px;
 
 }
+
 .site-nav__nav__li { 
     display: inline-block;
     border-radius: 2px;
     padding: 5px 10px;
     border: 1px solid; width: 80px; width: 90px;
-}
-.site-nav__nav__li site-nav--dark1{ 
-    color:black;
-    background-color: lightskyblue;
-    border-color:lightgreen;
-}
+    background: lemonchiffon;
 
+}
+footer {
+    display:grid;
+    grid-template-columns: 1fr 2fr;
+}
+.botton-bottom {
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+.botton {
+    display: grid;
+
+    text-align: center;
+}
+main p {
+    padding-top: 0;
+}
+#button {
+    padding-bottom: 5px;
+}
+.container a { color:black;}
+
+.button__state-footer{  width: 90px;}
 main {
-    background-color: lightgreen; width: 100%; font-size: 20px;
+    width:100%; font-size: 20px;
 }
-.site-nav__nav__lisite-nav-dark2 { color: yellow;}
 
-.span {
-    background-color: orange;
-}
-.site-nav__li__ site-nav__nav__li--item1{
-    background-color: black;
-}
+
+
 /* ..........   footer............. */
 
-.item1 {
-    background-color: lightcoral;
-    color:black;
-    border: 1px solid; width: 88px;
-}
-.item2 {
-    background-color: lightcyan;
-    color: red;
-    border: 1px solid; width: 88px;
-}
-.item3 {
-    background-color:lightgoldenrodyellow ;
-    color:darkolivegreen;
-    border: 1px solid; width: 88px;
-}
-.item4 {
-    background-color: lightgreen;
-    color: darkred;
-    border: 1px solid ; width: 88px;
-}
-main h2,p  {
-     padding: 0 10px 5px 10px;
-}
+
 
 @media (max-width:700px){
     .site-nav {
@@ -65,26 +57,27 @@ main h2,p  {
         font-size: 20px;
     }
     .site-nav--dark{
-        background-color: rgb(49, 230, 118); color: black;
+        background-color:lightgrey; color: black;
     }
     .item1 {
-        background-color: lightcoral;
+        background-color: ightgoldenrodyellow;
         color:black;
         border: 1px solid; width: 88px;
     }
     .item2 {
-        background-color: lightcyan;
-        color: red;
+    background-color: ightgoldenrodyellow;
+    
+        color:black;
         border: 1px solid; width: 88px;
     }
     .item3 {
-        background-color:lightgoldenrodyellow ;
-        color:darkolivegreen;
+        background-color:ightgoldenrodyellow ;
+        color:black;
         border: 1px solid; width: 88px;
     }
     .item4 {
-        background-color: lightgreen;
-        color: darkred;
+        background-color: ightgoldenrodyellow;
+        color:black;
         border: 1px solid ; width: 88px;
     }
     main h2,p  {
